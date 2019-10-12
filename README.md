@@ -1,2 +1,1 @@
-# ps_ug
-Zajęcia Języki Programowania
+# Zajęcia języki programowania
