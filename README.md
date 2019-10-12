@@ -1,5 +1,15 @@
 ## Zajęcia języki programowania
 
+* [X] Zawartość katalogu /. Katalog domowy użytkownika: pwd, ~. 
+
+* [X] Ścieżka, ścieżka względna, katalog bieżący, rodzicielski.
+
+* [ ] Pliki: tworzenie, usuwanie, przenoszenie, zmiana nazwy. Polecenia: 'ls', 'tree', 'cp', 'mv', 'cd', 'rm', 'rmdir'.
+
+* VSCode + linters
+
+----------
+
 * [X] Napisać program tzw. hello world
 * [ ] Przygotować programy do konwersji z F na C
 1. 1
