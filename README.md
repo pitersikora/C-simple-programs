@@ -6,7 +6,7 @@
 
 * [X] Pliki: tworzenie, usuwanie, przenoszenie, zmiana nazwy. Polecenia: `ls`, `tree`, `cp`, `mv`, `cd`, `rm`, `rmdir`.
 
-* [ ] Skonfigurować VSCode. Dodać rozszerzenia. Czym jest linters + instalacja.
+* [X] Skonfigurować VSCode. Dodać rozszerzenia. Czym jest linters + instalacja.
 
 ----------
 
