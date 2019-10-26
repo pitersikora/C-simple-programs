@@ -39,8 +39,8 @@
 1. [X] Zarchiwizuj cały katalog temp. (zip i tar)
 
     ```sh
-    zip temp2.zip temp/ # kompresja do .zip
-    tar -zcvf temp.tar temp/ # kompresja do .tar
+    zip temp.zip temp/* # kompresja do .zip
+    tar -zcvf temp.tar temp/* # kompresja do .tar
     ```
 
 
