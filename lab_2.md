@@ -8,7 +8,7 @@
     head --lines 2 program.c # skrypt w Bash-u
     ```
 
-1. [X] Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
+1. [ ] Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
 
     ```sh
     tail -4 program.c
@@ -36,23 +36,19 @@
     mv ../wazne-sprawy/ ../praca/
     ```
 
-1. [X] Zarchiwizuj cały katalog temp. (zip i tar)
+1. [ ] Zarchiwizuj cały katalog temp. (zip i tar)
 
     ```sh
-    zip temp2.zip temp/ # kompresja do .zip
+    tar -zcvf temp.zip temp/ # kompresja do .zip
     tar -zcvf temp.tar temp/ # kompresja do .tar
     ```
 
 
-1. [X] Usuń katalog temp.
+1. [ ] Usuń katalog temp.
 
     ```sh
     rm -r /temp # -r powoduje  usunięcie wszystkich podkatalogów i plików
     ```
-1. [X] Odtwórz z archiwum katalog temp. (unzip i tar)
+1. [ ] Odtwórz z archiwum katalog temp. (unzip i tar)
 
-    ```sh
-    tar -zxvf temp.tar # wypakowanie archiwum .tar
-    unzip temp.zip # wypakowanie archiwum .zip
-    ```
-1. [X] Posprzątaj na swoim koncie.
+1. [ ] Posprzątaj na swoim koncie.
