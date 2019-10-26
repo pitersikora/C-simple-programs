@@ -3,26 +3,43 @@
 1. [X] Wyświetl na ekran 2 pierwsze wiersze pliku `program.c`. (head)
 
 ```sh
-head -2 hello_world.c # konsola, terminal
-head -n 2 hello_world.c
-head --lines 2 hello_world.c # skrypt w Bash-u
+head -2 program.c # konsola, terminal
+head -n 2 program.c
+head --lines 2 program.c # skrypt w Bash-u
 ```
 
-2. [] Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
+2. [ ] Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
 
 ```sh
+tail -4 program.c
+tail -n 4 program.c
+tail --lines 4 program.c
+```
 
+3. [X] W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
 
-3. [] W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
+```sh
+grep main program.c
+```
 
-4. [] Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
+4. [X] Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
 
-5. [] Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+```sh
+chmod -rw-r----- program.c
+chmod 640 program.c
+```
 
-6. [] Zarchiwizuj cały katalog temp. (zip i tar)
+5. [X] Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
 
-7. [] Usuń katalog temp.
+```sh
+cd temp # wejście do folderu temp
+mv ../wazne-sprawy/ ../praca/
+```
 
-8. [] Odtwórz z archiwum katalog temp. (unzip i tar)
+6. [ ] Zarchiwizuj cały katalog temp. (zip i tar)
 
-9. [] Posprzątaj na swoim koncie.
+7. [ ] Usuń katalog temp.
+
+8. [ ] Odtwórz z archiwum katalog temp. (unzip i tar)
+
+9. [ ] Posprzątaj na swoim koncie.
