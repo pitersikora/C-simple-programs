@@ -12,7 +12,9 @@
 
 1. 26.10.2019
     * [X] Wykonanie zadań `lab_2.md`
+
     * [X] Wykonanie zadań `lab_5.md` pkt 1-4
+
     * [X] Wykonanie zadań `lab_6.md`
 
 1. 08.11.2019
