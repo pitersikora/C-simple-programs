@@ -31,6 +31,6 @@
 1. [X] Znajdź wiersze zawierające liczby rzymskie w pliku `plik.txt`.
 
     ```sh
-    egrep plik.txt -e '(X|D|C|M|V|L|I)+'
-    # szukaj w pliku plik.txt znaków wskazujących na cyfry rzymskie (conajmniej 1 litera tworząca dowolną cyfrę rzymską)
+    egrep plik.txt -e '(I|V|X|L|C|D|M)+'
+    # szukaj w pliku plik.txt znaków wskazujących na cyfry rzymskie (conajmniej 1 litera z systemu cyfr rzymskich)
     ```
