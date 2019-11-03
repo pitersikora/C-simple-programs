@@ -4,7 +4,7 @@
 
     ```sh
     find $HOME -maxdepth 1 -mtime -10
-    # szukaj w katalogu domowym z głębokością drzewa 1 (czyli dany folder) pliki zmodyfikowane 10 dni temu lub mniej
+    # szukaj w katalogu domowym do 1-szego poziomu drzewa pliki zmodyfikowane 10 dni temu lub mniej
     ```
 
 1. [X] Znajdź wszystkie pliki zwykłe w systemie, które mają w nazwie ciąg znaków „conf” i wyświetl ich nazwy na ekranie.
