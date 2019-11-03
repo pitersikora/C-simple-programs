@@ -3,7 +3,7 @@
 1. [X] Znajdź w swoim katalogu domowym (bez podkatalogów) wszystkie pliki, które zostały zmodyfikowane w ciągu ostatnich dziesięciu dni i wyświetl ich nazwy.
 
     ```sh
-    find $HOME -maxdepth 1 -mtime -10
+    find $HOME -maxdepth 1 -type f -mtime -10
     # szukaj w katalogu domowym do 1-szego poziomu drzewa pliki zmodyfikowane 10 dni temu lub mniej
     ```
 
@@ -17,7 +17,7 @@
 1. [X] Znajdź w swoim katalogu domowym wszystkie pliki, które nie były używane w ciągu ostatnich 20 dni
 
     ```sh
-    find $HOME -atime +20
+    find $HOME -type f -atime +20
     # szukaj w katalogu domowym pliki używane 20 dni temu lub więcej
     ```
 
