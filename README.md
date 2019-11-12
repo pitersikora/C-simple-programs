@@ -18,3 +18,5 @@
     * [X] Wykonanie zadań `lab_6.md`
 
 1. 09.11.2019
+    * [X] Wykonanie programu liczącego sumę dowolnego zakresu liczb podniesionych do dowolnej potęgi : program `power_sums.c`
+    * [X] Prezentacja wyników w formie kolorowej tabeli

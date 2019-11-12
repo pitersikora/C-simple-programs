@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 #define ANSI_COLOR_RED     "\x1b[31m"
 #define ANSI_COLOR_GREEN   "\x1b[32m"
@@ -18,5 +17,5 @@ int main (int argc, char const *argv[]) {
   printf(ANSI_COLOR_MAGENTA "This text is MAGENTA!" ANSI_COLOR_RESET "\n");
   printf(ANSI_COLOR_CYAN    "This text is CYAN!"    ANSI_COLOR_RESET "\n");
 
-    return 0;
+  return 0;
 }
