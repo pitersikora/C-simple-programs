@@ -47,7 +47,7 @@ int main()
       // if curent power is 1 then power_base is multiplication outcome
       if(e == 1){
         sum_array(power_base, result);
-      // if sum power is >= 2 then put power_step into final result and multiply further)
+      // if sum power is >= 2 then put power_step into final result and multiply further
       } else {
         sum_array(power_step, result);
       }
