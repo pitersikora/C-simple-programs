@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "ansi_color.h"
+#include "array_size_limit.h"
 
 // function for converting number into array
 void op_write_array(int what_array[], int num_to_write)
@@ -26,7 +27,7 @@ void op_write_array(int what_array[], int num_to_write)
     num_to_write = num_to_write % divider;
   }
   // fill rest of array with zeros
-  for(int i = digit_number; i <= 99; i++)
+  for(int i = digit_number; i <= ARRAY_LIMIT-1; i++)
   {
     what_array[i] = 0;
   }
@@ -38,7 +39,7 @@ void op_printf_array(int array_to_print[])
   // guard variable
   int empty = 1;
 
-  for(int i = 99; i >= 0; i--)
+  for(int i = ARRAY_LIMIT-1; i >= 0; i--)
   {
     // condition protecting from printing empty array elements
     if(array_to_print[i] != 0 && empty == 1)
@@ -61,7 +62,7 @@ void op_printf_array(int array_to_print[])
 // function for filling array with zeros
 void op_clear_array(int array_to_clean[])
 {
-  for(int i = 0; i < 100; i++)
+  for(int i = 0; i < ARRAY_LIMIT; i++)
   {
     array_to_clean[i] = 0;
   }

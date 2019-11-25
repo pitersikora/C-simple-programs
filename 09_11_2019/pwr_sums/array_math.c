@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "array_op.h"
+#include "array_size_limit.h"
 
 // function for summing two numbers in form of arrays
 void math_sum_array(int component[], int sum[])
 {
-  for(int i = 0; i < 100; i++)
+  for(int i = 0; i < ARRAY_LIMIT; i++)
   {
     {
       sum[i] = sum[i] + component[i];
@@ -22,16 +23,16 @@ void math_sum_array(int component[], int sum[])
 void math_multiply_array(int multiplicant[], int multiplier[], int final_array[])
 {
   // prepare array and variable for temporary results
-  int prepare_array[100] = {0};
+  int prepare_array[ARRAY_LIMIT] = {0};
   int multiply_res = 0;
 
-  for(int i = 0; i < 100; i++)
+  for(int i = 0; i < ARRAY_LIMIT; i++)
   {
     // if i element in multiplicant is 0 then skip this calculation
     // and go to next element
     if(multiplicant[i] != 0)
     {
-      for(int j = 0; j < 100; j++)
+      for(int j = 0; j < ARRAY_LIMIT; j++)
       {
         // same as for multiplicant
         if(multiplier[j] != 0)
