@@ -3,7 +3,7 @@
 #include "ansi_color.h"
 
 // function for converting number into array
-void write_array(int what_array[], int num_to_write)
+void op_write_array(int what_array[], int num_to_write)
 {
   int digit_number = 0;
   int num_to_count = num_to_write;
@@ -33,7 +33,7 @@ void write_array(int what_array[], int num_to_write)
 }
 
 // function for printing number from array
-void printf_array(int array_to_print[])
+void op_printf_array(int array_to_print[])
 {
   // guard variable
   int empty = 1;
@@ -46,14 +46,20 @@ void printf_array(int array_to_print[])
       empty = 0;
     }
     // if first digit is found then print everything till the end
-    if(empty == 0){
-      printf(ANSI_COLOR_GREEN"%d"ANSI_COLOR_RESET, array_to_print[i]);
+    if(empty == 0)
+    {
+      if ((i % 3 == 0) && (i!=0))
+      {
+        printf(ANSI_COLOR_GREEN"%d_"ANSI_COLOR_RESET, array_to_print[i]);
+      } else {
+        printf(ANSI_COLOR_GREEN"%d"ANSI_COLOR_RESET, array_to_print[i]);
+      }
     }
   }
 }
 
 // function for filling array with zeros
-void clear_array(int array_to_clean[])
+void op_clear_array(int array_to_clean[])
 {
   for(int i = 0; i < 100; i++)
   {

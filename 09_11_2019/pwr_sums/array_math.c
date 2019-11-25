@@ -2,7 +2,7 @@
 #include "array_op.h"
 
 // function for summing two numbers in form of arrays
-void sum_array(int component[], int sum[])
+void math_sum_array(int component[], int sum[])
 {
   for(int i = 0; i < 100; i++)
   {
@@ -19,7 +19,7 @@ void sum_array(int component[], int sum[])
 }
 
 // function for multiplying two numbers in form of arrays
-void multiply_array(int multiplicant[], int multiplier[], int final_array[])
+void math_multiply_array(int multiplicant[], int multiplier[], int final_array[])
 {
   // prepare array and variable for temporary results
   int prepare_array[100] = {0};
@@ -45,8 +45,8 @@ void multiply_array(int multiplicant[], int multiplier[], int final_array[])
         prepare_array[j+i] = multiply_res % 10;
         prepare_array[j+i+1] = multiply_res / 10;
         // put multiplication of two elements into final result array
-        sum_array(prepare_array, final_array);
-        clear_array(prepare_array);
+        math_sum_array(prepare_array, final_array);
+        op_clear_array(prepare_array);
       }
     }
   }
