@@ -26,8 +26,12 @@
 
 1. 16.11.2019
 
+    Zmiany wprowadzono do programu `09_11_2019/power_sums/power_sums.o`
+
     * [X] Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie jak największą liczbę wierszy
 
     * [X] Napisać funkcję wypisującą liczbę w postaci podkreślnika co 3 cyfry (ustawienie locale na amerykański, zamiana liczby na string i wstawienie _ co 3 cyfrę)
 
     * [X] Skasować zbędne spacje po znaku '=' w tabelce
+
+1. 30.11.2019
