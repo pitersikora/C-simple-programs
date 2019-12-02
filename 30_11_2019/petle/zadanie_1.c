@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
 
 void print_result(int n)
 {
@@ -17,12 +16,14 @@ int main(int argc, char const *argv[])
   {
     print_result(i);
   }
-// lub
-//  int i = 0;
-//
-//  while(pow(2,i) <= limit)
-//  {
-//    print_result(i);
-//    i++;
-//  }
+/*
+ lub
+  int i = 0;
+
+  while(pow(2,i) <= limit)
+  {
+    print_result(i);
+    i++;
+  }
+*/
 }

@@ -36,7 +36,7 @@
 
 1. 30.11.2019
 
-    * [] Wykonać zadania z wydzieleniem na pliki nagłówkowe
+    * [ ] Wykonać zadania z wydzieleniem na pliki nagłówkowe
 
     0. [X] Jakie wartości wyświetli poniższy program:
 
@@ -67,6 +67,7 @@
      * * * * * * * *
     * * * * * * * *
     ```
+    - [ ] dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
 
     3. [X] Napisz program, który wczyta dwie liczby całkowite a i b (a<b) a następnie wypisze wszystkie liczby całkowite pomiędzy a i b
 

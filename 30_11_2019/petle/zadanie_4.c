@@ -9,13 +9,13 @@ int main()
 
   if(max_number < 1)
   {
-    printf("nieprawidłowa liczba\n");
+    printf("nieprawidlowa liczba\n");
   } else {
     int result = 0;
     for(int i = 1; i <= max_number; i++)
     {
       result += i;
     }
-    printf("suma kolejnych liczb naturlanych od 1 do %d = %d\n", max_number, result);
+    printf("suma kolejnych liczb naturalnych od 1 do %d = %d\n", max_number, result);
   }
 }
