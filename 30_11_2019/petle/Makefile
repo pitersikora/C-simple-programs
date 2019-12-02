@@ -1,7 +1,15 @@
-CFLAGS=-ggdb -Wall # compilation flags - language standard etc.
-LDLIBS=-lm -ggdb   # additional libraries
+CFLAGS=-Wall  # compilation flags - language standard etc.
+LDLIBS=-lm -ggdb  # additional libraries
+SRC = $(wildcard *.c)  # src is all source files one by one
+PROGRAMS = $(patsubst %.c,%.bin,$(SRC))  # take each name divided by whitespace and replace extension from .c to .bin
 
-all: zadanie_0 zadanie_1 zadanie_2 zadanie_3 zadanie_4 zadanie_5
+all: $(PROGRAMS)
+# @ means to make it silent - command wont be printed in bash
+	@echo 'Compiled !!!'
+
+# each individual name is used to form task for compilation
+%.bin: %.c
+	gcc $(CFLAGS) $< $(LDLIBS) -o $@
 
 clean:
-	rm -f *.o zadanie_0 zadanie_1 zadanie_2 zadanie_3 zadanie_4 zadanie_5
+	rm -f $(PROGRAMS)

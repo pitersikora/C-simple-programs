@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-  for(int i = 1; i < 7; i++)
+  for(int i = 1; i < argc; i++)
   {
     printf("liczba %d : %s\n", i, argv[i]);
   }
