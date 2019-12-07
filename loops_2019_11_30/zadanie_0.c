@@ -1,3 +1,5 @@
+// Jakie wartości wyświetli poniższy program ?:
+
 #include <stdio.h>
 
 int main()
@@ -12,3 +14,20 @@ int main()
     printf("wynik = %d\n", wynik);
     return 0;
 }
+
+/*
+Program wyświetla:
+```bash
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+wynik = 385
+```
+*/

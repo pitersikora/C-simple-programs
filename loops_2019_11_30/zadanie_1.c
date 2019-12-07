@@ -1,3 +1,5 @@
+// Napisz program, który wypisuje kolejne potęgi liczby 2 nie przekraczające podanej liczby.
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>

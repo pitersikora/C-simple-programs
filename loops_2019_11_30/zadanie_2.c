@@ -1,3 +1,17 @@
+/*
+Napisz program wyświetlający poniższą szachownicę:
+```bash
+* * * * * * * *
+ * * * * * * * *
+* * * * * * * *
+ * * * * * * * *
+* * * * * * * *
+ * * * * * * * *
+* * * * * * * *
+```
+dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
+*/
+
 #include <stdio.h>
 
 void print_pattern(int layers);
@@ -9,8 +23,6 @@ int main()
 {
   print_pattern(4);
 }
-
-// ----
 
 void print_pattern(int layers)
 {

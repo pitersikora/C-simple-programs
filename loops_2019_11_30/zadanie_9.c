@@ -1,3 +1,8 @@
+/*
+Napisz program monożący liczby tak jak to pokazano w tym filmiku
+[A Night Of Numbers – Go Forth And Multiply](https://www.youtube.com/watch?v=Nc4yrFXw20Q).
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

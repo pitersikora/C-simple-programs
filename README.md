@@ -26,7 +26,7 @@
 
 1. 16.11.2019
 
-    Zmiany wprowadzono do programu `09_11_2019_powersums/power_sums/power_sums.c`
+    **UWAGA**<br>Zmiany wprowadzono do programu `powersums_2019_11_09/power_sums.c`
 
     * [X] Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie jak największą liczbę wierszy
 
@@ -65,7 +65,7 @@
      * * * * * * * *
     * * * * * * * *
     ```
-    - [X] dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
+        dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
 
     3. [X] Napisz program, który wczyta dwie liczby całkowite a i b (a<b) a następnie wypisze wszystkie liczby całkowite pomiędzy a i b
 

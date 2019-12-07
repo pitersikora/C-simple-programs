@@ -1,3 +1,8 @@
+/*
+Napisz program, który wczyta dwie liczby całkowite a i b (a<b)
+a następnie wypisze wszystkie liczby całkowite pomiędzy a i b
+*/
+
 #include <stdio.h>
 
 void generate_result(int min_number,int max_number);
@@ -20,6 +25,7 @@ void generate_result(int min_number,int max_number)
   if(min_number > max_number)
   {
     printf("nieprawidłowy zakres liczb\n");
+    exit(1);
   } else {
     printf("podaje liczby z zakresu miedzy %d a %d\n", min_number, max_number);
 

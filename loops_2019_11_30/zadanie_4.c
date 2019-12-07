@@ -1,3 +1,8 @@
+/*
+Napisz program, który wyliczy sumę liczb naturalnych od 1 do liczby n podanej przez użytkownika.
+Kiedy użytkownik poda liczbę mniejszą niż 1, to program powinien wypisać stosowny komunikat o błędzie.
+*/
+
 #include <stdio.h>
 
 void generate_result(int max);
@@ -17,6 +22,7 @@ void generate_result(int max)
   if(max < 1)
   {
     printf("nieprawidlowa liczba\n");
+    exit(1);
   } else {
     // sum numbers from 1 to max_number
     int result = 0;
