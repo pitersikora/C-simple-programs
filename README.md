@@ -26,7 +26,7 @@
 
 1. 16.11.2019
 
-    Zmiany wprowadzono do programu `09_11_2019_powersums/power_sums/power_sums.o`
+    Zmiany wprowadzono do programu `09_11_2019_powersums/power_sums/power_sums.c`
 
     * [X] Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie jak największą liczbę wierszy
 
