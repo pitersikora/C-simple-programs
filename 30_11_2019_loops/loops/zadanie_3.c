@@ -1,15 +1,22 @@
 #include <stdio.h>
 
+void generate_result(int min_number,int max_number);
+
 int main()
 {
-  int min_number = 0;
-  int max_number = 0;
+  int min = 0;
+  int max = 0;
 
   printf("podaj liczbe z dolnej granicy\n");
-  scanf("%d", &min_number);
+  scanf("%d", &min);
   printf("podaj liczbe z gornej granicy\n");
-  scanf("%d", &max_number);
+  scanf("%d", &max);
 
+  generate_result(min, max);
+}
+
+void generate_result(int min_number,int max_number)
+{
   if(min_number > max_number)
   {
     printf("nieprawidłowy zakres liczb\n");
