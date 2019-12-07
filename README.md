@@ -26,7 +26,7 @@
 
 1. 16.11.2019
 
-    Zmiany wprowadzono do programu `09_11_2019/power_sums/power_sums.o`
+    Zmiany wprowadzono do programu `09_11_2019_powersums/power_sums/power_sums.o`
 
     * [X] Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie jak największą liczbę wierszy
 
@@ -35,8 +35,6 @@
     * [X] Skasować zbędne spacje po znaku '=' w tabelce
 
 1. 30.11.2019
-
-    * [ ] Wykonać zadania z wydzieleniem na pliki nagłówkowe
 
     0. [X] Jakie wartości wyświetli poniższy program:
 
@@ -67,7 +65,7 @@
      * * * * * * * *
     * * * * * * * *
     ```
-    - [ ] dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
+    - [X] dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
 
     3. [X] Napisz program, który wczyta dwie liczby całkowite a i b (a<b) a następnie wypisze wszystkie liczby całkowite pomiędzy a i b
 
@@ -87,4 +85,4 @@
     ***     **        **     ***
     ****    *          *    ****
     ```
-    9. [] Napisz program monożący liczby tak jak to pokazano w tym filmiku [A Night Of Numbers – Go Forth And Multiply](https://www.youtube.com/watch?v=Nc4yrFXw20Q).
+    9. [X] Napisz program monożący liczby tak jak to pokazano w tym filmiku [A Night Of Numbers – Go Forth And Multiply](https://www.youtube.com/watch?v=Nc4yrFXw20Q).
