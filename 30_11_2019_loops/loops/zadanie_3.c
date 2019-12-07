@@ -16,7 +16,7 @@ int main()
   } else {
     printf("podaje liczby z zakresu miedzy %d a %d\n", min_number, max_number);
 
-    // print numbers between min and max
+    // print numbers between min and max (they are excluded)
     while(min_number < max_number-1)
     {
       // first step is incrementation so min number wont be printed
