@@ -89,7 +89,7 @@
 
 1. 07.12.2019
 
-    1. [ ] Poniższy – zawierający wiele błędów –   program dla podanej z klawiatury liczby M  ma obliczyć najmniejszą liczbę n, taką że  1 + 2 + 3 +...+ n >= M  Popraw wszystkie błędy w tym programie tak,aby poprawiony program prawidłowo obliczał   liczbę n.
+    1. [ ] Poniższy – zawierający wiele błędów –   program dla podanej z klawiatury liczby M  ma obliczyć najmniejszą liczbę n, taką że<br>1 + 2 + 3 +...+ n >= M<br>Popraw wszystkie błędy w tym programie tak,aby poprawiony program prawidłowo obliczał liczbę n.
 
     ```c
     #include <stdio.h>
@@ -119,7 +119,7 @@
     1 + 2 + 3 + 4 + 5 >= 10
     ```
 
-    2. [ ] Oblicz wartość π (pi) z nieskończonej sumy <br> π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ... <br> Wypisz w postaci tabelki przybliżoną wartość π przez sumę 10, 100, 1000 i 1_000_000 wyrazów tego szeregu.<br> Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybliżenia π: 3.14, 3.141, 3.1415 ? Wyniki wypisz w postaci tabelki.
+    2. [ ] Oblicz wartość π (pi) z nieskończonej sumy<br>π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...<br>Wypisz w postaci tabelki przybliżoną wartość π przez sumę 10, 100, 1000 i 1_000_000 wyrazów tego szeregu.<br>Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybliżenia π: 3.14, 3.141, 3.1415 ? Wyniki wypisz w postaci tabelki.
 
     3. [ ] Zamiast komentarza /** ... */ i kropek ... poniżej wpisz kod, tak aby powstał program zliczający znaki odstępu, tabulacji i nowego wiersza tekstu wczytanego z stdin.
     ```c
