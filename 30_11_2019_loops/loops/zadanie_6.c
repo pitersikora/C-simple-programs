@@ -10,8 +10,10 @@ int main(int argc, char const *argv[])
 
   for(int i = 2; i < argc; i++)
   {
-    /* every loop checks if number is smaller than min or bigger than max
-    if true replace the number */
+    /*
+    every loop checks if number is smaller than min or bigger than max
+    if true replace the number
+    */
     number = atof(argv[i]);
     if(number < min)
     {

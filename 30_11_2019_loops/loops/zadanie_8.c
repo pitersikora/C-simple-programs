@@ -26,7 +26,7 @@ void print_pattern(int base, int count, int print_toggle, char sign_1, char sign
     {
       putchar(sign_1);
     }
-    //print sign_2 to fill up layer
+    // print sign_2 to fill up layer
     for(int i = 0; i < base - count; i ++)
     {
       putchar(sign_2);
