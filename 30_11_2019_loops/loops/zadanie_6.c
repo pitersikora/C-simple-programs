@@ -3,12 +3,15 @@
 
 int main(int argc, char const *argv[])
 {
+  // first number will be max and min at the beggining
   double max = atof(argv[1]);
   double min = atof(argv[1]);
   double number;
 
   for(int i = 2; i < argc; i++)
   {
+    /* every loop checks if number is smaller than min or bigger than max
+    and replace the number if true */
     number = atof(argv[i]);
     if(number < min)
     {

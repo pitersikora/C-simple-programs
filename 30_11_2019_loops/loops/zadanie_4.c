@@ -11,6 +11,7 @@ int main()
   {
     printf("nieprawidlowa liczba\n");
   } else {
+    // sum numbers from 1 to max_number
     int result = 0;
     for(int i = 1; i <= max_number; i++)
     {

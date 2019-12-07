@@ -86,3 +86,5 @@
     ****    *          *    ****
     ```
     9. [X] Napisz program monożący liczby tak jak to pokazano w tym filmiku [A Night Of Numbers – Go Forth And Multiply](https://www.youtube.com/watch?v=Nc4yrFXw20Q).
+
+1. 07.12.2019
