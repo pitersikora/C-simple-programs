@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-base is how many signs are in one layer
+base is how many signs are in one layer and how many layers are in pattern
 count is how many sign_1 print at start
 print toggle is adding (1) or reducing (0) sign_1 count in next layer
 sign_1 is first symbol to print in layer
