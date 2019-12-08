@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 #include "bernoulli.h"
 
 #define UPPER_LIMIT 100
@@ -29,8 +28,7 @@ void print_jbernoulli_table(int nrow)
   }
 }
 
-void print_results(int y, int upper_limit, int s)
+void print_results(int y, int upper_limit, unsigned long long int s)
 {
-  // %25d print in space with width = 25 symbols
-  printf("1^%2d + 2^%2d + ... + %d^%2d = %25d\n", y, y, upper_limit, y, s);
+  printf("1^%2d + 2^%2d + ... + %d^%2d = \t%llu\n", y, y, upper_limit, y, s);
 }

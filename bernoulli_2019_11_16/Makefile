@@ -1,9 +1,10 @@
 CFLAGS=-ggdb -Wall # compilation flags - language standard etc.
 LDLIBS=-lm # additional libraries
 
-all: bernoulli_table
+all: bernoulli_table.bin
 
-bernoulli_table : bernoulli.o bernoulli.h
+bernoulli_table.bin : bernoulli_table.c bernoulli.c
+	gcc $(CFLAGS) $^ $(LDLIBS) -o $@
 
 clean:
-	rm -f *.o bernoulli_table
+	rm -f *.bin bernoulli_table
