@@ -5,16 +5,15 @@ HEADERS = $(wildcard *_func.c) # header files with program functions
 MAINS = $(filter-out $(HEADERS),$(SRC)) # exclude header files from source files
 PROGRAMS = $(patsubst %.c,%.bin,$(MAINS))  # take each name divided by whitespace and replace extension from .c to .bin
 
-#all: $(PROGRAMS)
+all: $(PROGRAMS)
 # @ means to make it silent - command wont be printed in bash
-#	@echo 'Compiled !!!'
+	@echo 'Compiled !!!'
 
+zadanie_0.bin: zadanie_0.c
+	gcc $(CFLAGS) $< $(LDLIBS) -o $@
 # each individual name is used to form task for compilation
-#%.bin: %.c
-#	gcc $(CFLAGS) $< $*_func.c $(LDLIBS) -o $@
-
-zadanie_9: zadanie_9.c
-	gcc $(CFLAGS) $^ zadanie_9_func.c $(LDLIBS) -o $@.bin
+%.bin: %.c
+	gcc $(CFLAGS) $< $*_func.c $(LDLIBS) -o $@
 
 clean:
 	rm -f $(PROGRAMS)
