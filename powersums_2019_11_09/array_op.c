@@ -49,6 +49,7 @@ void op_printf_array(int array_to_print[])
     // if first digit is found then print everything till the end
     if(empty == 0)
     {
+      // loop for printing '_' sign every 3 digits
       if ((i % 3 == 0) && (i!=0))
       {
         printf(ANSI_COLOR_GREEN"%d_"ANSI_COLOR_RESET, array_to_print[i]);
@@ -60,10 +61,10 @@ void op_printf_array(int array_to_print[])
 }
 
 // function for filling array with zeros
-void op_clear_array(int array_to_clean[])
+void op_clear_array(int array_to_clear[])
 {
   for(int i = 0; i < ARRAY_LIMIT; i++)
   {
-    array_to_clean[i] = 0;
+    array_to_clear[i] = 0;
   }
 }

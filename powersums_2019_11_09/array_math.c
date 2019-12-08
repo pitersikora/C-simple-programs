@@ -7,14 +7,12 @@ void math_sum_array(int component[], int sum[])
 {
   for(int i = 0; i < ARRAY_LIMIT; i++)
   {
+    sum[i] = sum[i] + component[i];
+    if(sum[i] >= 10)
     {
-      sum[i] = sum[i] + component[i];
-      if(sum[i] >= 10)
-      {
-        // if sum >= 10 write modulo into i element and add 1 into i+1 element
-        sum[i] = sum[i] % 10;
-        sum[i+1] += 1;
-      }
+      // if sum >= 10 write modulo into i element and add 1 into i+1 element
+      sum[i] = sum[i] % 10;
+      sum[i+1] += 1;
     }
   }
 }

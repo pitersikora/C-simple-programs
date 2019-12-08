@@ -37,7 +37,8 @@ void create_power_table (int max_base, int max_exponent)
       }
       // put one N multiplication outcome into final result array
       // if curent power is 1 then power_base is multiplication outcome
-      if(e == 1){
+      if(e == 1)
+      {
         math_sum_array(power_base, result);
       // if sum power is >= 2 then put power_step into final result and multiply further
       } else {
