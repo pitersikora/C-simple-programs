@@ -20,7 +20,7 @@
 
 1. 09.11.2019
 
-    * [X] Wykonanie programu liczącego sumę dowolnego zakresu liczb podniesionych do dowolnej potęgi : program `power_sums.c`
+    * [X] Wykonanie programu liczącego sumę zakresu liczb podniesionych do potęgi : program `power_sums.c`
 
     * [X] Prezentacja wyników w formie kolorowej tabeli
 
