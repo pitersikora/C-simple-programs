@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "zadanie_8_func.h"
 /*
 pattern_length is how many signs are in one layer and how many layers are in pattern
 start_counter is how many sign_1 print at start

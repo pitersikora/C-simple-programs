@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "zadanie_2_func.h"
 
 void print_row_1(int row_ammount, char row_symbol)
 {

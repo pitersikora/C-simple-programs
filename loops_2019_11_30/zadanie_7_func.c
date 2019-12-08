@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "zadanie_7_func.h"
 
 void generate_result(int num_counter, char const *num_array[])
 {

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "zadanie_9_func.h"
 
 void generate_result(int number_1, int number_2)
 {

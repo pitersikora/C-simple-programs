@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "zadanie_3_func.h"
 
 void generate_result(int min_number,int max_number)
 {

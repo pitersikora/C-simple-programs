@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "zadanie_1_func.h"
 
 void print_result(int n)
 {
