@@ -30,7 +30,7 @@
 
     * [X] Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie jak największą liczbę wierszy
 
-    * [X] Napisać funkcję wypisującą liczbę w postaci podkreślnika co 3 cyfry (ustawienie locale na amerykański, zamiana liczby na string i wstawienie _ co 3 cyfrę)
+    * [X] Napisać funkcję wypisującą liczbę w postaci podkreślnika co 3 cyfry
 
     * [X] Skasować zbędne spacje po znaku '=' w tabelce
 
