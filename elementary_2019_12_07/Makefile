@@ -9,6 +9,8 @@ all: $(PROGRAMS)
 # @ means to make it silent - command wont be printed in bash
 	@echo 'Compiled !!!'
 
+zadanie_4.bin: zadanie_4.c
+	gcc $(CFLAGS) $< $(LDLIBS) -o $@
 # each individual name is used to form task for compilation
 %.bin: %.c
 	gcc $(CFLAGS) $< $*_func.c $(LDLIBS) -o $@

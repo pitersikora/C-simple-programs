@@ -119,7 +119,7 @@
     1 + 2 + 3 + 4 + 5 >= 10
     ```
 
-    2. [ ] Zamiast komentarzy /* ... */ w programie poniżej wpisz kod tak, aby powstał program, który sprawdza czy podana liczba całkowita jest pierwsza.
+    2. [X] Zamiast komentarzy /* ... */ w programie poniżej wpisz kod tak, aby powstał program, który sprawdza czy podana liczba całkowita jest pierwsza.
     ```c
     #include <stdio.h>
     int main() {
@@ -133,9 +133,9 @@
     }
     ```
 
-    3. [ ] Oblicz wartość π (pi) z nieskończonej sumy<br>π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...<br>Wypisz w postaci tabelki przybliżoną wartość π przez sumę 10, 100, 1000 i 1_000_000 wyrazów tego szeregu.<br>Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybliżenia π: 3.14, 3.141, 3.1415 ? Wyniki wypisz w postaci tabelki.
+    3. [X] Oblicz wartość π (pi) z nieskończonej sumy<br>π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...<br>Wypisz w postaci tabelki przybliżoną wartość π przez sumę 10, 100, 1000 i 1_000_000 wyrazów tego szeregu.<br>Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybliżenia π: 3.14, 3.141, 3.1415 ? Wyniki wypisz w postaci tabelki.
 
-    4. [ ] Zamiast komentarza /** ... */ i kropek ... poniżej wpisz kod, tak aby powstał program zliczający znaki odstępu, tabulacji i nowego wiersza tekstu wczytanego z stdin.
+    4. [X] Zamiast komentarza /** ... */ i kropek ... poniżej wpisz kod, tak aby powstał program zliczający znaki odstępu, tabulacji i nowego wiersza tekstu wczytanego z stdin.
     ```c
     #include <stdio.h>
     int main()
