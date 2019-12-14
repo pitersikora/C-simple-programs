@@ -162,8 +162,8 @@
     <br>#N - ile kroków wykonano w rozwiązaniu problemu
     <br>MAX - liczba o największej wartości w ciągu podczas rozwiązywania
 
-    1. Napisać rekurencyjną implementację funkcji obliczającej nk (n do potęgi k).
+    1. [X] Napisać rekurencyjną implementację funkcji obliczającej nk (n do potęgi k).
 
-    1. Napisać funkcję rekurencyjną C(n,k) obliczającą współczynnik Newtona n po k, czyli liczbę podzbiorów k-elementowych zbioru n-elementowego.
+    1. [X] Napisać funkcję rekurencyjną C(n,k) obliczającą współczynnik Newtona n po k, czyli liczbę podzbiorów k-elementowych zbioru n-elementowego.
 
-    1. Korzystając z twierdzenia Euklidesa, napisać program obliczający rekurencyjnie największy wspólny dzielnik z liczb podanych na wejściu.
+    1. [X] Korzystając z twierdzenia Euklidesa, napisać program obliczający rekurencyjnie największy wspólny dzielnik z liczb podanych na wejściu.
