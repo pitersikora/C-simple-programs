@@ -17,18 +17,13 @@ void calculate_collatz(long unsigned int limit_number)
       if(result % 2 == 1)
       {
         result = 3 * result + 1;
-        step ++;
-        if(result > max)
-        {
-          max = result;
-        }
       } else {
         result = result / 2;
-        step ++;
-        if(result > max)
-        {
-          max = result;
-        }
+      }
+      step ++;
+      if(result > max)
+      {
+        max = result;
       }
     }
     printf("\t%d\t|\tTRUE\t|\t%d\t|\t%d\t\n", i, step, max);

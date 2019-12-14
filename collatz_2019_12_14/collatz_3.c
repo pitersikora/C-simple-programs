@@ -13,5 +13,5 @@ MAX - liczba o największej wartości w ciągu podczas rozwiązywania
 int main()
 {
   generate_table_header();
-  calculate_collatz(1);
+  calculate_collatz(1000000);
 }
