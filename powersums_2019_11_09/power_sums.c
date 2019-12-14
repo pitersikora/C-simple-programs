@@ -11,17 +11,15 @@ były wymagane do zaliczenia wprowadzono w tym programie.
 #include "array_op.h"
 #include "array_math.h"
 #include "power_table.h"
+#include "simpio.h"
 
 int main()
 {
-  int N;
-  int exponent;
-
   // ask user for max number to sum and its max exponent
   printf("Enter max base number \n");
-  scanf("%d", &N);
+  int N = GetInteger();
   printf("Enter max exponent number \n");
-  scanf("%d", &exponent);
+  int exponent = GetInteger();
 
   create_power_table (N, exponent);
 }
