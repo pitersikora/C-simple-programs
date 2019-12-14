@@ -12,6 +12,7 @@ all: $(PROGRAMS)
 zadanie_4: zadanie_4.c
 	@echo 'Compiling $< '
 	@gcc $(CFLAGS) $< $(LDLIBS) -o $@
+
 # each individual name is used to form task for compilation
 %: %.c %_func.c ../libs/*.c
 	@echo 'Compiling $< '

@@ -1,5 +1,5 @@
-CFLAGS=-Wall # compilation flags - language standard etc.
-LDLIBS=-lm -I ../libs/ # additional libraries
+CFLAGS=-Wall -O2 # compilation flags - language standard etc.
+LDLIBS=-lm # additional libraries
 SRC=$(wildcard *.c)  # src is all source files one by one
 HEADERS=$(wildcard *_func.c) # header files with program functions
 MAINS=$(filter-out $(HEADERS),$(SRC)) # exclude header files from source files
@@ -10,7 +10,7 @@ all: $(PROGRAMS)
 	@echo 'Completed !!!'
 
 # each individual name is used to form task for compilation
-%: %.c %_func.c ../libs/*.c
+%: %.c %_func.c
 	@echo 'Compiling $< '
 	@gcc $(CFLAGS) $^ $(LDLIBS) -o $@
 
