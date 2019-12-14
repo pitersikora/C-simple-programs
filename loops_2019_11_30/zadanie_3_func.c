@@ -11,12 +11,11 @@ void generate_result(int min_number,int max_number)
   } else {
     printf("podaje liczby z zakresu miedzy %d a %d\n", min_number, max_number);
 
-    // print numbers between min and max (they are excluded)
-    while(min_number < max_number-1)
+    // print numbers between min and max (max is excluded)
+    while(min_number < max_number)
     {
-      // first step is incrementation so min number wont be printed
-      min_number ++;
       printf("%d\n", min_number);
+      min_number ++;
     }
   }
 }
