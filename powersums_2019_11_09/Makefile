@@ -4,7 +4,7 @@ LDLIBS=-lm # additional libraries
 all: power_sums # first command is default - input only "make"
 
 power_sums:
-	cc -Wall power_sums.c power_table.c array_op.c array_math.c -lm -o power_sums.bin
+	cc -Wall power_sums.c power_table.c array_op.c array_math.c -lm -o power_sums
 
 clean:
 	rm -f *.bin power_sums
