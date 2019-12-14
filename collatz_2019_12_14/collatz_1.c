@@ -10,6 +10,6 @@ OK - czy liczba jest zgodna z problemem Collatza
 
 int main()
 {
-  generate_table();
+  generate_table_header();
   calculate_collatz(100);
 }

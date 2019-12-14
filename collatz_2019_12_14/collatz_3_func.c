@@ -35,7 +35,7 @@ void calculate_collatz(long unsigned int limit_number)
   }
 }
 
-void generate_table()
+void generate_table_header()
 {
   printf("\tN\t|\tOK\t|\t#N\t|\tMAX\t\n");
   printf("-----------------------------------------------------------------\n");
