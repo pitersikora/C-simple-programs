@@ -166,4 +166,6 @@
 
     1. [X] Napisać funkcję rekurencyjną C(n,k) obliczającą współczynnik Newtona n po k, czyli liczbę podzbiorów k-elementowych zbioru n-elementowego.
 
+    1. [X] Napisać funkcję rekurencyjną odwracającą kolejność liter w napisie podanym na wejściu.
+
     1. [X] Korzystając z twierdzenia Euklidesa, napisać program obliczający rekurencyjnie największy wspólny dzielnik z liczb podanych na wejściu.
