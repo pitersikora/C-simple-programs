@@ -6,3 +6,12 @@ OK - czy liczba jest zgodna z problemem Collatza
 #N - ile kroków wykonano w rozwiązaniu problemu
 MAX - liczba o największej wartości w ciągu podczas rozwiązywania
 */
+
+#include <stdio.h>
+#include "collatz_3_func.h"
+
+int main()
+{
+  generate_table();
+  calculate_collatz(100);
+}

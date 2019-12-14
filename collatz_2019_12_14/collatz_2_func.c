@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "collatz_1_func.h"
+#include "collatz_2_func.h"
 
 void calculate_collatz(long unsigned int limit_number)
 {
@@ -22,12 +22,12 @@ void calculate_collatz(long unsigned int limit_number)
         step ++;
       }
     }
-    printf("\t%d\t|\tTRUE\t\n", i);
+    printf("\t%d\t|\tTRUE\t|\t%d\t\n", i, step);
   }
 }
 
 void generate_table()
 {
-  printf("\tN\t|\tOK\t\n");
-  printf("---------------------------------\n");
+  printf("\tN\t|\tOK\t|\t#N\t\n");
+  printf("--------------------------------------------------\n");
 }

@@ -5,3 +5,12 @@ N - liczba podana przez użytkownika
 OK - czy liczba jest zgodna z problemem Collatza
 #N - ile kroków wykonano w rozwiązaniu problemu
 */
+
+#include <stdio.h>
+#include "collatz_2_func.h"
+
+int main()
+{
+  generate_table();
+  calculate_collatz(100);
+}

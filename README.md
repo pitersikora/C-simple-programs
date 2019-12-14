@@ -152,3 +152,18 @@
        return 0;
     }
     ```
+
+1. 14.12.2019
+
+    1. [X] Napisz program który sprawdzi czy liczby w zakresie od 1 do 100 są zgodne z [problemem Collatza](https://pl.wikipedia.org/wiki/Problem_Collatza)
+    przedstawi wynik w postaci tabeli gdzie:
+    <rm>N - liczba podana przez użytkownika
+    <rm>OK - czy liczba jest zgodna z problemem Collatza
+    <rm>#N - ile kroków wykonano w rozwiązaniu problemu
+    <rm>MAX - liczba o największej wartości w ciągu podczas rozwiązywania
+
+    2. Napisać rekurencyjną implementację funkcji obliczającej nk (n do potęgi k).
+
+    3. Napisać funkcję rekurencyjną C(n,k) obliczającą współczynnik Newtona n po k, czyli liczbę podzbiorów k-elementowych zbioru n-elementowego.
+
+    4. Korzystając z twierdzenia Euklidesa, napisać program obliczający rekurencyjnie największy wspólny dzielnik z liczb podanych na wejściu.
