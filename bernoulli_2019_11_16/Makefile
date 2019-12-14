@@ -7,4 +7,4 @@ bernoulli_table : bernoulli_table.c bernoulli.c
 	gcc $(CFLAGS) $^ $(LDLIBS) -o $@
 
 clean:
-	rm -f *.bin bernoulli_table
+	rm -f bernoulli_table

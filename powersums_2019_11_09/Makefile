@@ -7,4 +7,4 @@ power_sums:
 	cc -Wall power_sums.c power_table.c array_op.c array_math.c -lm -o power_sums
 
 clean:
-	rm -f *.bin power_sums
+	rm -f power_sums
