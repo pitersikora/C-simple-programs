@@ -14,12 +14,12 @@ void print_pattern(int pattern_length, int start_counter, int change_counter, ch
   // one loop is one pattern layer, all symbols in layer are equal to base
   for(int c = 0; c < pattern_length; c++)
   {
-    for(int i = 0; i < start_counter; i ++)
+    for(int i = 0; i < start_counter; i++)
     {
       putchar(sign_1);
     }
     // print sign_2 to fill up layer
-    for(int i = 0; i < pattern_length - start_counter; i ++)
+    for(int i = 0; i < pattern_length - start_counter; i++)
     {
       putchar(sign_2);
     }

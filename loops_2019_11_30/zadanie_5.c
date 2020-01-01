@@ -1,6 +1,6 @@
 /*
 Napisz program, który wczyta ze stdin 6 liczb całkowitych do tablicy,
-a następnie wypisze zawartość tej tablicy od początku i od końca.
+a następnie wypisze zawartość tej tablicy od początku do końca.
 */
 
 #include <stdio.h>
