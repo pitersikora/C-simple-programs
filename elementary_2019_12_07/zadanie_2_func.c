@@ -14,8 +14,6 @@ int jest_pierwsza(int num_for_test)
     if(num_for_test % divider++ == 0)
     {
       return 0;
-    } else {
-      continue;
     }
   }
   return 1;

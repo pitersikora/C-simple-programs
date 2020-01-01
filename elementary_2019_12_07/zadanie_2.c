@@ -24,7 +24,7 @@ int main()
   printf("Podaj liczbe calkowita: ");
   scanf("%d", &n);
 
-  printf("\nPodana liczba '%d' jest %s\n",
+  printf("Podana liczba %d jest %s\n",
   n, jest_pierwsza(n) ? "pierwsza" : "złożona");
 
   return 0;
