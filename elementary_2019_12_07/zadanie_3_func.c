@@ -9,12 +9,14 @@ void calculate_pi(int max_expressions)
 
   for(int i = 1; i <= max_expressions; i++)
   {
+    // add_or_subtract is switch variable which is controling calculation steps
     if(add_or_subtract == 0)
     {
+      // i is casted into double for correct result
       result = result - (4/((double)i*2+1)); // e.g. for i = 1 expression is 4 - 4/3
       add_or_subtract = 1;
     } else {
-      result = result + (4/((double)i*2+1));
+      result = result + (4/((double)i*2+1)); // e.g. for i = 1 expression is 4 + 4/3
       add_or_subtract = 0;
     }
   }
@@ -32,9 +34,11 @@ void generate_table_1()
 double long find_decimal_point(double long num_to_check)
 {
   int last_decimal_number = 0;
-
   /* fmod calculates modulo from floating point
-  loop finds where is last digit after decimal separator */
+  loop finds where is last digit after decimal separator
+  multiply number by power of 10, if modulo from floating point isnt 0
+  divide by bigger power of 10, if modulo from floating point is 0,
+  it means that there are no more numbers*/
   while(fmod(num_to_check * pow(10, last_decimal_number), 10) != 0)
   {
     last_decimal_number ++;
@@ -57,6 +61,7 @@ void find_pi_expression(double long result_to_find)
   {
     if(add_or_subtract == 0)
     {
+      // iterator is casted into long double for accurate result
       iterator ++;
       result = result - (4/((long double)iterator*2+1));
       add_or_subtract = 1;

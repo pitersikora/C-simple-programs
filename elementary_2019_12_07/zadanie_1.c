@@ -1,7 +1,7 @@
 /*
 Poniższy – zawierający wiele błędów – program dla podanej z klawiatury liczby M
 ma obliczyć najmniejszą liczbę n,taką że
-<br>1 + 2 + 3 +...+ n >= M
+1 + 2 + 3 +...+ n >= M
 Popraw wszystkie błędy w tym programie tak,
 aby poprawiony program prawidłowo obliczał liczbę n.
 
