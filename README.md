@@ -221,5 +221,4 @@
     4. [X] Wzorując się na przykładzie napisz program, który pobierze liczbę naturalną n. Następnie stworzy dynamiczną tablicę nn-element-ową i wypełni ją liczbami od 1 do n. Następnie program ma wypisać tę tablicę na ekranie.
 
     5. [X] Napisz program, który będzie zawierał funkcję MinMax. Funkcja ta ma przyjmować tablicę liczb całkowitych (wraz z ich rozmiarem podanym na początku programu) oraz zwracać ma jednocześnie najmniejszy oraz największy element tej tablicy. Funkcja ta ma wywoływać zaimplementowane przez użytkownika funkcje min i max odpowiadające za wyszukiwanie najmniejszego oraz największego elementu tablicy.
-
     Skorzystaj z wersji wskaźnikowej i adresów funkcji.
