@@ -12,7 +12,7 @@ all: $(PROGRAMS)
 
 # each individual name is used to form task for compilation
 %:
-	@gcc -c $(CFLAGS) $@_func.c
+	@gcc $(CFLAGS) -c $@_func.c
 	@echo 'Compiling $< '
 	@gcc $(CFLAGS) $@.c $@_func.o $(LDLIBS) -o $@
 
