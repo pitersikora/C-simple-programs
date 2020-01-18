@@ -11,7 +11,7 @@ sign_2 is second symbol to print in layer
 void print_pattern(int pattern_length, int start_counter, int change_counter, char sign_1, char sign_2)
 {
   printf("\n");
-  // one loop is one pattern layer, all symbols in layer are equal to base
+  // one loop is one pattern layer, all symbols in layer are equal to pattern_lenght
   for(int c = 0; c < pattern_length; c++)
   {
     for(int i = 0; i < start_counter; i++)
