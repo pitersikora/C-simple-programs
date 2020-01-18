@@ -10,8 +10,10 @@ void wczytaj_liczbe(int *n)
 
 void *stworz_tablice(int n)
 {
+  /* reserve as much memory as needed for "n" integer numbers
+  n is received earlier from user by wczytaj_liczbe*/
   int *temp;
-  temp = malloc(n*sizeof(int));
+  temp = malloc(n * sizeof(int));
 
   if(temp == NULL)
   {
@@ -23,14 +25,16 @@ void *stworz_tablice(int n)
 
 void wpisz_liczby(int *tab, int n)
 {
+  // put numbers from 1 to n into array
   for(int i = 0; i < n; i++)
   {
-  tab[i] = i+1;
+  tab[i] = i + 1;
   }
 }
 
 void wypisz_tablice(int *tab, int limit)
 {
+  // basic loop for printing all array elements
   for(int i = 0; i < limit; i++)
   {
     printf("%d ", tab[i]);
