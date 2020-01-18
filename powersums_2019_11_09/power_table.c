@@ -46,7 +46,7 @@ void create_power_table (int max_base, int max_exponent)
       }
     }
     // print final result after whole calculation
-    printf(ANSI_COLOR_YELLOW" 1^%1d + 2^%1d + ... + %1d^%1d \t"ANSI_COLOR_RESET, e, e, max_base, e);
+    printf(ANSI_COLOR_YELLOW"  1^%1d + 2^%1d + ... + %1d^%1d \t"ANSI_COLOR_RESET, e, e, max_base, e);
     printf(ANSI_COLOR_RED"| "ANSI_COLOR_RESET);
     op_printf_array(result);
     printf("\n");
