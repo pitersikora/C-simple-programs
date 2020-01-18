@@ -1,4 +1,5 @@
 ## Zajęcia języki programowania
+
 1. 12.10.2019
 
     * [X] Zawartość katalogu /. Katalog domowy użytkownika: pwd, ~.
@@ -52,6 +53,7 @@
     return 0;
     }
     ```
+
     1. [X] Napisz program, który wypisuje kolejne potęgi liczby 2 nie przekraczające 2010.
 
     2. [X] Napisz program wyświetlający poniższą szachownicę:
@@ -65,6 +67,7 @@
      * * * * * * * *
     * * * * * * * *
     ```
+
         dodatkowo - wykonać generyczne tworzenie wzoru według liczb gwiazdek
 
     3. [X] Napisz program, który wczyta dwie liczby całkowite a i b (a<b) a następnie wypisze wszystkie liczby całkowite pomiędzy a i b
@@ -85,6 +88,7 @@
     ***     **        **     ***
     ****    *          *    ****
     ```
+
     9. [X] Napisz program monożący liczby tak jak to pokazano w tym filmiku [A Night Of Numbers – Go Forth And Multiply](https://www.youtube.com/watch?v=Nc4yrFXw20Q).
 
 1. 07.12.2019
@@ -110,6 +114,7 @@
     ```
 
     Na konsoli, działanie programu, może wyglądać tak:
+
     ```sh
     Podaj liczbę M: 11
     Szukane n to: 5
@@ -120,6 +125,7 @@
     ```
 
     2. [X] Zamiast komentarzy /* ... */ w programie poniżej wpisz kod tak, aby powstał program, który sprawdza czy podana liczba całkowita jest pierwsza.
+
     ```c
     #include <stdio.h>
     int main() {
@@ -136,6 +142,7 @@
     3. [X] Oblicz wartość π (pi) z nieskończonej sumy<br>π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...<br>Wypisz w postaci tabelki przybliżoną wartość π przez sumę 10, 100, 1000 i 1_000_000 wyrazów tego szeregu.<br>Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybliżenia π: 3.14, 3.141, 3.1415 ? Wyniki wypisz w postaci tabelki.
 
     4. [X] Zamiast komentarza /** ... */ i kropek ... poniżej wpisz kod, tak aby powstał program zliczający znaki odstępu, tabulacji i nowego wiersza tekstu wczytanego z stdin.
+
     ```c
     #include <stdio.h>
     int main()
@@ -169,3 +176,50 @@
     1. [X] Napisać funkcję rekurencyjną odwracającą kolejność liter w napisie podanym na wejściu.
 
     1. [X] Korzystając z twierdzenia Euklidesa, napisać program obliczający rekurencyjnie największy wspólny dzielnik z liczb podanych na wejściu.
+
+1. 11.01.2020
+
+    1. [X] Uzupełnij podany kod, tak aby powstał działający program:
+
+    ```c
+    void podnies_do_kwadratu(int *n) {
+
+    }
+
+    void wczytaj_liczbe(int *n) {
+
+    }
+
+    int main() {
+      int liczba;
+      wczytaj_liczbe(&liczba);
+      podnies_do_kwadratu(&liczba);
+      printf("Kwadrat wczytanej liczby to %d\n", liczba);
+      return 0;
+    }
+    ```
+
+    2. [X] Napisz program, który będzie zawierał funkcję swap_integers, który będzie zamieniał miejscami liczby a i b.
+
+    3. [X] Rozważmy następujący kod programu:
+
+    ```c
+    #include <stdio.h>
+
+    int main () {
+      int ref[] = {8, 4, 0, 2};
+      int *wsk;
+      int indeks;
+      for (indeks = 0, wsk = ref; indeks < 4; indeks++, wsk++)
+      printf("%d %d\n", ref[indeks], *wsk);
+      return 0;
+    }
+    ```
+
+    Wzorując się na powyższym przykładzie napisz program, który dla 10 elementowej  statycznej tablicy wczyta jej elementy i wypisze na ekranie.
+
+    4. [X] Wzorując się na przykładzie napisz program, który pobierze liczbę naturalną n. Następnie stworzy dynamiczną tablicę nn-element-ową i wypełni ją liczbami od 1 do n. Następnie program ma wypisać tę tablicę na ekranie.
+
+    5. [X] Napisz program, który będzie zawierał funkcję MinMax. Funkcja ta ma przyjmować tablicę liczb całkowitych (wraz z ich rozmiarem podanym na początku programu) oraz zwracać ma jednocześnie najmniejszy oraz największy element tej tablicy. Funkcja ta ma wywoływać zaimplementowane przez użytkownika funkcje min i max odpowiadające za wyszukiwanie najmniejszego oraz największego elementu tablicy.
+
+    Skorzystaj z wersji wskaźnikowej i adresów funkcji.
