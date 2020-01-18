@@ -1,14 +1,10 @@
-/*
-Napisz program, ktory pobierze liczbe naturalna n.
-Nastepnie stworzy dynamiczna tablice n-element-owa i wypelni ja liczbami
-od 1, ... ,n.
-Nastepnie program ma wypisac te tablice na ekranie.
-*/
 #include <stdio.h>
 #include <stdlib.h>
+#include "zadanie_4_func.h"
 
-  void wczytaj_liczbe(int *n)
+void wczytaj_liczbe(int *n)
 {
+  printf("Podaj liczbe elementow w tablicy: ");
   scanf("%d", n);
 }
 
@@ -39,15 +35,4 @@ void wypisz_tablice(int *tab, int limit)
   {
     printf("%d ", tab[i]);
   }
-}
-
-int main ()
-{
-  int n;
-  int *tab;
-  wczytaj_liczbe(&n);
-  tab = stworz_tablice(n);
-  wpisz_liczby(tab, n);
-  wypisz_tablice(tab, n);
-  free(tab);
 }

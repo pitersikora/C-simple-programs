@@ -19,16 +19,7 @@ int main() {
 */
 #include <stdio.h>
 #include <stdlib.h>
-
-void podnies_do_kwadratu(int *n)
-{
-  *n *= *n;
-}
-
-void wczytaj_liczbe(int *n)
-{
-  scanf("%d", n);
-}
+#include "zadanie_1_func.h"
 
 int main()
 {

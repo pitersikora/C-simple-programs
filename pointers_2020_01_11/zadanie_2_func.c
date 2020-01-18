@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "zadanie_2_func.h"
+
+void wczytaj_liczbe(int *n)
+{
+  scanf("%d", n);
+}
+
+void swap_integers(int *a, int *b)
+{
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}

@@ -15,14 +15,7 @@ int main () {
 }
 */
 #include <stdio.h>
-
-void wczytaj_liczby(int *table)
-{
-  for(int i = 0; i < 10; i++)
-  {
-    scanf("%d", &table[i]);
-  }
-}
+#include "zadanie_3_func.h"
 
 int main () {
   int ref[10];
